@@ -18,7 +18,7 @@ const server = http.createServer(app);
 const io = socketio(server);
 
 // Set static folder
-app.use(express.static(path.join(__dirname, "ApnaChat")));
+app.use(express.static(path.join(__dirname)));
 
 const botName = "ApnaChat Bot";
 
