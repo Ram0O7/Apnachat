@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
 :root {
 	--dark-color-b: #150b21;
@@ -15,7 +15,7 @@
 }
 
 body {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-size: 16px;
 	background: linear-gradient(#ddeeff,#fff);
 	min-height: 100vh;display: flex;align-items: center;justify-content: center;
@@ -178,6 +178,7 @@ a {
 
 .join-main .btn {
 	margin-top: 20px;
+	padding: 10px 0;
 	width: 100%;
 }
 .fa-paper-plane{
