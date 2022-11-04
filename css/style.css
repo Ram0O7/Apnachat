@@ -79,11 +79,16 @@ a {
 
 .chat-sidebar h2 {
 	font-size: 20px;
-	background-color: #ddeeff;
-	color: #2a9143;
+	background-color: lavender;
 	border-radius: 5px;
+	color: #44430d;
 	padding: 10px;
 	margin-bottom: 20px;
+}
+
+.chat-sidebar h2::first-letter{
+	color: green;
+	font-size: 1.8rem;
 }
 
 .chat-sidebar h3 {
@@ -215,6 +220,21 @@ footer{
 	position: absolute;
 	top:88vh;
 	color: lavender;
+}
+
+#users li::first-letter{
+	font-size: 1.5rem;
+	font-weight: 900;
+	color: green;
+}
+
+.users{
+	color: rgb(200,180,139);
+	font-size: 1.5rem;
+}
+.comments{
+	color:teal;
+	font-size: 1.5rem;
 }
 
 @media (max-width:480px) {
