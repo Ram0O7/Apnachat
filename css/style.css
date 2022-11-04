@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
 :root {
-	--dark-color-b: #150b21;
-	--dark-color-a: linear-gradient(0deg,#011f08c9,#1d4025e6);
-	--light-color: #ddeeffcf;
-	--success-color: #4add60;
-	--error-color: #d9534f;
+    --dark-color-b: #000000a6;
+    --dark-color-a: linear-gradient(0deg,#44430d,#9d9524e6);
+    --light-color: #bfb47a;
+    --success-color: #4add60;
+    --error-color: #d9534f;
+}
+.smile{
+	color:#fff300f0;
 }
 
 * {
@@ -17,9 +20,11 @@
 body {
 	font-family: 'Poppins', sans-serif;
 	font-size: 16px;
-	background-image: url(/bgimg.jpg);
+	background-image: url(/bgimg1.jpg);
 	background-position: center;
-	background-size: cover;
+	background-color: black;
+	background-size: contain;
+	background-repeat: no-repeat;
 	min-height: 100vh;display: flex;align-items: center;justify-content: center;
 }
 
