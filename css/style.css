@@ -210,3 +210,15 @@ a {
 		display: none;
 	}
 }
+
+footer{
+	position: absolute;
+	top:95vh;
+	color: lavender;
+}
+
+@media (max-width:480px) {
+	footer{
+		left: 8vw;
+	}
+}
